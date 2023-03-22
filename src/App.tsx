@@ -10,10 +10,14 @@ function App() {
     new Todo('Learn React with typescript')
 
   ]
+  const addTodoHandler = ()=>{
+    
+  }
   return (
     <div className="App">
+       <NewTodo onAddText={addTodoHandler}/>
      <Todos items={todos}/>
-     <NewTodo/>
+    
     </div>
   );
 }
