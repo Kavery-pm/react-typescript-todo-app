@@ -5,7 +5,7 @@ import Todos from './components/Todos';
 function App() {
   return (
     <div className="App">
-     <Todos/>
+     <Todos items={['Learn React','learn next']}/>
     </div>
   );
 }
